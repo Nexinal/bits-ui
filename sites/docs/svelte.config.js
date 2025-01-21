@@ -1,6 +1,6 @@
 import path from "node:path";
 import url from "node:url";
-import adapter from "@sveltejs/adapter-cloudflare";
+import adapter from "@sveltejs/adapter-auto";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 import { mdsx } from "mdsx";
 import { preprocessMeltUI } from "@melt-ui/pp";
